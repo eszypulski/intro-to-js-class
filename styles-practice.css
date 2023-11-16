@@ -1,0 +1,49 @@
+.outerRectangle {
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    background-color: blue;
+}
+
+.rectangle {
+    width: 30%;
+    height: 10%;
+    margin: 50% auto 50% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(176, 222, 197);
+    box-shadow: 10px 10px mediumslateblue;
+    font-family: 'Abril Fatface', serif;
+    font-size: 50px;
+    font-size: 3.5vw;
+
+   
+}
+
+.butt {
+  width: 100%;
+justify-content: center;
+    background-color: aquamarine;
+    position: relative;
+}
+button {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    color: #eae8e8;
+    border: 0px;
+    padding: 8px;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .active {
+    background-color: coral;
+  }

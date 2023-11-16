@@ -29,3 +29,19 @@ p {
     margin: 0 auto;
     color: rgb(255, 230, 204);
 }
+
+#toggleJokes {
+    background: #6DC9CF;
+border: 6px solid #5283BB;
+box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+border-radius: 24px;
+font-family: 'Roboto', sans-serif;
+font-size: 25px;
+color: #184f53;
+letter-spacing: 0.38px;
+padding: 20px;
+}
+
+.test {
+    margin-bottom: 200px;
+}
